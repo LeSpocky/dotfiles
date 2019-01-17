@@ -1,0 +1,37 @@
+set number
+
+set tabstop=4
+set shiftwidth=4
+set shiftround
+set expandtab
+
+set colorcolumn=72
+
+if has("autocmd")
+    autocmd FileType c          set tw=72 fdm=syntax
+    autocmd FileType cpp        set tw=72 fdm=syntax
+    autocmd FileType javascript set tw=72 fdm=syntax
+    autocmd FileType make       set noet
+    autocmd FileType cmake      set noet
+
+    autocmd BufWritePre *.c :%s/\s\+$//e
+    autocmd BufWritePre *.cpp :%s/\s\+$//e
+    autocmd BufWritePre *.h :%s/\s\+$//e
+    autocmd BufWritePre *.hpp :%s/\s\+$//e
+endif
+
+filetype plugin on
+filetype indent on
+
+execute pathogen#infect()
+
+syntax enable
+set background=dark
+colorscheme solarized
+
+nnoremap <F4> :vertical resize 80<CR>
+call togglebg#map("<F5>")
+nnoremap <F6> :buffers<CR>:buffer<Space>
+nnoremap <F7> :set nonumber!<CR>
+nnoremap <F8> :set nocursorline!<CR>
+nnoremap <F9> :set nolist!<CR>
