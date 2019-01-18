@@ -1,0 +1,29 @@
+if (( EUID == 0 )); then
+    umask 002
+else
+    umask 022
+fi
+
+alias p=ptxdist
+#autoload bashcompinit
+#bashcompinit
+#source ~/bin/bash_completion
+#source ~/src/ptxdist/scripts/bash_completion
+
+unalias ag
+#alias ip='ip -c'
+
+# Less Colors for Man Pages
+# https://misc.flogisoft.com/bash/tip_colors_and_formatting
+export LESS_TERMCAP_md=$'\e[0;34m'  # begin bold
+export LESS_TERMCAP_us=$'\e[0;32m'  # begin underline
+export LESS_TERMCAP_so=$'\e[42;90m' # begin reverse video
+export MANWIDTH=${MANWIDTH:-100}
+
+export MC_SKIN="${HOME}/src/mc-solarized-skin/solarized.ini"
+
+eval $(dircolors ~/.dir_colors)
+
+zstyle ':prompt:grml:left:items:path' pre '%F{cyan}'
+zstyle ':prompt:grml:left:items:path' post '%f'
+zstyle ':prompt:grml:left:items:user' pre '%F{green}'
