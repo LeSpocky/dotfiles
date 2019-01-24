@@ -1,0 +1,1 @@
+../src/src/grml-etc-core/etc/vim/vimrc

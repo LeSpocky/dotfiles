@@ -1,0 +1,3 @@
+[submodule "src/src/grml-etc-core"]
+	path = src/src/grml-etc-core
+	url = git@github.com:LeSpocky/grml-etc-core.git
