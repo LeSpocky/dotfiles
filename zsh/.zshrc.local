@@ -20,7 +20,7 @@ export LESS_TERMCAP_us=$'\e[0;32m'  # begin underline
 export LESS_TERMCAP_so=$'\e[42;90m' # begin reverse video
 export MANWIDTH=${MANWIDTH:-100}
 
-export MC_SKIN="${HOME}/src/mc-solarized-skin/solarized.ini"
+export MC_SKIN="${HOME}/.dotfiles/src/src/mc-solarized-skin/solarized.ini"
 
 eval $(dircolors ~/.dir_colors)
 

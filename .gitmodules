@@ -4,3 +4,6 @@
 [submodule "src/src/solarized"]
 	path = src/src/solarized
 	url = git@github.com:LeSpocky/solarized.git
+[submodule "src/src/mc-solarized-skin"]
+	path = src/src/mc-solarized-skin
+	url = git@github.com:denius/mc-solarized-skin.git
