@@ -20,9 +20,10 @@ export LESS_TERMCAP_us=$'\e[0;32m'  # begin underline
 export LESS_TERMCAP_so=$'\e[42;90m' # begin reverse video
 export MANWIDTH=${MANWIDTH:-100}
 
-export MC_SKIN="${HOME}/.dotfiles/src/src/mc-solarized-skin/solarized.ini"
+DOTFILES_SRC="${HOME}/.dotfiles/src/src"
 
-eval $(dircolors ~/.dir_colors)
+export MC_SKIN="${DOTFILES_SRC}/mc-solarized-skin/solarized.ini"
+eval $(dircolors "${DOTFILES_SRC}/dircolors-solarized/dircolors.ansi-universal")
 
 zstyle ':prompt:grml:left:items:path' pre '%F{cyan}'
 zstyle ':prompt:grml:left:items:path' post '%f'

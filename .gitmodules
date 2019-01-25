@@ -7,3 +7,6 @@
 [submodule "src/src/mc-solarized-skin"]
 	path = src/src/mc-solarized-skin
 	url = git@github.com:denius/mc-solarized-skin.git
+[submodule "src/src/dircolors-solarized"]
+	path = src/src/dircolors-solarized
+	url = git@github.com:seebi/dircolors-solarized.git
