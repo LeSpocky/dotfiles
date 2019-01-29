@@ -28,3 +28,7 @@ eval $(dircolors "${DOTFILES_SRC}/dircolors-solarized/dircolors.ansi-universal")
 zstyle ':prompt:grml:left:items:path' pre '%F{cyan}'
 zstyle ':prompt:grml:left:items:path' post '%f'
 zstyle ':prompt:grml:left:items:user' pre '%F{green}'
+
+fpath=( $HOME/.zsh/completions $fpath )
+autoload -U compinit
+compinit
