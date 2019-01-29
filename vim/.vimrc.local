@@ -11,6 +11,7 @@ if has("autocmd")
     autocmd FileType c          set tw=72 fdm=syntax
     autocmd FileType cpp        set tw=72 fdm=syntax
     autocmd FileType javascript set tw=72 fdm=syntax
+    autocmd FileType hgcommit   set tw=72
     autocmd FileType make       set noet
     autocmd FileType cmake      set noet
 
