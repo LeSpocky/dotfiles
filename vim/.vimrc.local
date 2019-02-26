@@ -33,6 +33,7 @@ syntax enable
 set background=dark
 colorscheme solarized
 
+nnoremap <F3> :set nopaste!<CR>
 nnoremap <F4> :vertical resize 80<CR>
 call togglebg#map("<F5>")
 nnoremap <F6> :buffers<CR>:buffer<Space>
