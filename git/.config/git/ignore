@@ -1,0 +1,6 @@
+# Editors
+*.swp
+*~
+
+# KDevelop
+/.kdev4
