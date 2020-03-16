@@ -10,3 +10,6 @@
 [submodule "src/src/dircolors-solarized"]
 	path = src/src/dircolors-solarized
 	url = git@github.com:LeSpocky/dircolors-solarized.git
+[submodule "src/src/vim-better-whitespace"]
+	path = src/src/vim-better-whitespace
+	url = git@github.com:LeSpocky/vim-better-whitespace.git

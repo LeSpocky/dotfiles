@@ -18,17 +18,15 @@ if has("autocmd")
     autocmd FileType hgcommit   set tw=72
     autocmd FileType make       set noet
     autocmd FileType cmake      set noet
-
-    autocmd BufWritePre *.c :%s/\s\+$//e
-    autocmd BufWritePre *.cpp :%s/\s\+$//e
-    autocmd BufWritePre *.h :%s/\s\+$//e
-    autocmd BufWritePre *.hpp :%s/\s\+$//e
 endif
 
 filetype plugin on
 filetype indent on
 
 execute pathogen#infect()
+
+let g:strip_only_modified_lines=1
+let g:show_spaces_that_precede_tabs=1
 
 syntax enable
 set background=dark
