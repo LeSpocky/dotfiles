@@ -91,3 +91,8 @@ pgp.char=%
 [plugins]
 sourcepath=/home/adahl/src/profanity-plugins/stable
 load=ascii.py;whoami.py;sounds.py;say.py;
+
+[omemo]
+log=on
+omemo.char=*
+policy=manual
