@@ -96,3 +96,9 @@ load=ascii.py;whoami.py;sounds.py;say.py;
 log=on
 omemo.char=*
 policy=manual
+
+[alias]
+xa=/status set xa "länger weg …"
+away=/status set away "kurz weg …"
+on=/status set online
+dnd=/status set dnd
