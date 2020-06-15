@@ -76,6 +76,8 @@ grlog=true
 [connection]
 defaccount=tt
 
+carbons=true
+
 [presence]
 autoaway.mode=away
 
