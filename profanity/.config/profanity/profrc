@@ -74,7 +74,6 @@ chlog=true
 grlog=true
 
 [connection]
-defaccount=tt
 
 carbons=true
 
