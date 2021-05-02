@@ -262,7 +262,7 @@ visible_headers "From:,Subject:,Date:,Newsgroups:,Followup-To:,Reply-To:,User-Ag
 %set color_by_score 3
 
 % If non-zero, the subjects of unread articles are highlighted
-%set highlight_unread_subjects 1
+set highlight_unread_subjects 1
 
 % If non-zero, URLs are highlighted.
 %set highlight_urls 1
@@ -273,53 +273,58 @@ visible_headers "From:,Subject:,Date:,Newsgroups:,Followup-To:,Reply-To:,User-Ag
 
 % This color object is only used when highlight_unread_subjects is set to 2
 % (see the reference manual for details):
-color unread_subject	"white"		"black"	"bold"
+color unread_subject    blue            default
 mono  unread_subject	"bold"
 
 % These settings are used for color terminals:
-color article		"lightgray"	"black"
-color author		"magenta"	"black"
-color boldtext		"brightblue"	"black"	"bold"
-color box		"black"		"white"
-color cursor		"brightgreen"	"black"
-color date		"lightgray"	"black"  
-color description	"lightgray"	"black"
-color error		"red"		"black"	"blink"
-color frame		"yellow"	"blue"
-color from_myself	"brightmagenta"	"black"	"bold"
-color group		"lightgray"	"black"	"bold"
-color grouplens_display	"lightgray"	"black"
-color header_name	"green"		"black"	"bold"
-color header_number	"green"		"black"
-color headers		"brightcyan"	"black"
-color neg_score		"green"		"black"
-color pos_score		"blue"		"black"
-color high_score	"red"		"black"	"bold"
-color italicstext	"magenta"	"black"	"bold"
-color menu		"yellow"	"blue"
-color menu_press	"lightgray"	"yellow"
-color message		"lightgray"	"black"
-color normal		"lightgray"	"black"
-color pgpsignature	"lightgray"	"black"
-color quotes		"red"		"black"
-color quotes1		"magenta"	"black"
-color quotes2		"brown"		"black"
-color quotes3		"brown"		"black"
-color quotes4		"brown"		"black"
-color quotes5		"brown"		"black"
-color quotes6		"brown"		"black"
-color quotes7		"brown"		"black"
-color response_char	"green"		"black"	"bold"
-color signature		"red"		"black"
-color selection		"yellow"	"blue"	"bold"
-color status		"yellow"	"blue"
-color subject		"lightgray"	"black"
-color thread_number	"lightgray"	"black"	"bold"
-color tilde		"green"		"black"	"bold"
-color tree		"red"		"black"	"bold"
-color underlinetext	"cyan"		"black"	"underline"
-color url		"white"		"black"	"bold"
-color verbatim		"green"		"black"
+color article		    default         default
+color author		    default         default bold
+color boldtext		    default         default bold
+color box		        default         black
+color cursor		    brown           black
+color date		        green           default
+color description	    brightblue      default
+color error		        red             default
+color frame		        white           blue
+color from_myself	    brightmagenta   default bold
+color group		        brightcyan      default bold
+color grouplens_display blue            default
+color header_name	    brightgreen     default bold
+color header_number	    default         black
+color headers		    brightgreen     default
+
+color neg_score		    red             default
+color pos_score		    green           default
+
+color high_score	    brightred       default bold
+color italicstext	    default         default bold
+color menu		        white           black
+color menu_press	    white           black   reverse
+color message		    default         black
+color normal		    brightgreen     default
+
+color pgpsignature	    brightgreen     default
+
+color quotes		    blue            default
+color quotes1		    green           default
+color quotes2		    brown           default
+color quotes3		    brightred       default
+color quotes4		    red             default
+color quotes5		    blue            default
+color quotes6		    green           default
+color quotes7		    brown           default
+
+color response_char	    white           black   bold
+color signature		    brightgreen     default
+color selection		    default         black   reverse
+color status		    white           blue
+color subject		    cyan            default
+color thread_number     default         default bold
+color tilde		        brightgreen     default
+color tree		        brown           default
+color underlinetext	    default         default underline
+color url		        brightmagenta   default
+color verbatim		    magenta         default
 
 % These attributes are for terminals that cannot display color:
 mono article		"none"
