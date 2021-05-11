@@ -1,0 +1,5 @@
+source ~/.vimrc
+set tw=72
+set nocompatible
+set nobackup
+set ft=mail
