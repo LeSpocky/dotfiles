@@ -1,5 +1,6 @@
 # Editors
 *.swp
+*.kate-swp
 *~
 
 # KDevelop
