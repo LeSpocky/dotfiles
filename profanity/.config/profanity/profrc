@@ -96,7 +96,7 @@ load=ascii.py;whoami.py;sounds.py;say.py;
 [omemo]
 log=on
 omemo.char=*
-policy=manual
+policy=automatic
 
 [alias]
 xa=/status set xa "länger weg …"
