@@ -1,1 +1,2 @@
 set diff-highlight = /usr/share/doc/git/contrib/diff-highlight/diff-highlight
+set mailmap = yes
