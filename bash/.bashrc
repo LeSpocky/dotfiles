@@ -111,3 +111,9 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# local additions
+if [ -f ~/.bashrc.local ]
+then
+    . ~/.bashrc.local
+fi
