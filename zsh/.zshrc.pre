@@ -1,0 +1,4 @@
+# show battery status in RPROMPT
+GRML_DISPLAY_BATTERY=1
+# use ag as command, not as alias to apt
+GRML_NO_APT_ALIASES=1

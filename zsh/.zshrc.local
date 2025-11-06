@@ -10,7 +10,6 @@ alias p=ptxdist
 #source ~/bin/bash_completion
 #source ~/src/ptxdist/scripts/bash_completion
 
-unalias ag
 #alias ip='ip -c'
 
 # Less Colors for Man Pages
