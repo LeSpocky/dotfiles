@@ -28,7 +28,10 @@ filetype indent on
 
 execute pathogen#infect()
 
-packadd! editorconfig
+try
+    packadd! editorconfig
+catch
+endtry
 
 let g:strip_only_modified_lines=1
 let g:show_spaces_that_precede_tabs=1
