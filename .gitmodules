@@ -13,3 +13,6 @@
 [submodule "src/src/vim-better-whitespace"]
 	path = src/src/vim-better-whitespace
 	url = git@github.com:LeSpocky/vim-better-whitespace.git
+[submodule "src/src/xcompose"]
+	path = src/src/xcompose
+	url = git@github.com:LeSpocky/xcompose.git
