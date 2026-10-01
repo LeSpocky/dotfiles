@@ -16,3 +16,6 @@
 [submodule "src/src/xcompose"]
 	path = src/src/xcompose
 	url = git@github.com:LeSpocky/xcompose.git
+[submodule "src/src/lf"]
+	path = src/src/lf
+	url = git@github.com:LeSpocky/lf.git
